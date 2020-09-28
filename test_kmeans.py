@@ -7,7 +7,7 @@ import KMeans
 ## step 1: load data  
 print ("step 1: load data..." ) 
 dataSet = []   
-fileIn = open("D:/xuepython/testSet.txt")  
+fileIn = open("testSet.txt")  
 for line in fileIn.readlines(): 
 	temp=[]
 	lineArr = line.strip().split('\t')  
